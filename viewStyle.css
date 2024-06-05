@@ -183,6 +183,7 @@ main .img-2 {
     top: 120px;
     right: 160px;
     border-radius: 5px;
+    transition: all .3s ease;
 }
 
 main .info-1 {
@@ -214,6 +215,7 @@ main .img-3 {
     top: 350px;
     right: 480px;
     border-radius: 5px;
+    transition: all .3s ease;
 }
 
 main .info-2 {
@@ -245,4 +247,14 @@ main .img-4 {
     top: 800px;
     right: 60px;
     border-radius: 5px;
+    transition: all .3s ease;
+}
+
+.img-2:hover,
+.img-3:hover,
+.img-4:hover {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
 }
